@@ -5,9 +5,14 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from urllib.error import HTTPError
+import sys
 
-year = "2023"
-monty = "7"
+if len(sys.argv) <= 2:
+    print("A valid year and month are required: YYYY MM")
+    sys.exit()
+
+year = sys.argv[1] #year "2023"
+monty = sys.argv[2] #monty "8"
 location = "nagoya"
 
 my_url='https://www.timeanddate.com/moon/japan/'+ location + '?month=' + \

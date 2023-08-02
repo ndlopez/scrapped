@@ -24,7 +24,7 @@ with open(path_file,mode="r") as data_file:
 
 #print(newFile)
 
-outFile = "../data/sunspot_number2.csv"
+outFile = "sunspot_number2.csv"
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
     write.writerow(fields)
