@@ -1,0 +1,11 @@
+{
+    "consult_date":"2023-08-05 10:30:00",
+    "request_date":"2023-08-03",
+    "mlit_rss":"https://www.mlit.go.jp/pressrelease.rdf",
+    "downloaded":
+    [
+        {"file":"001622444.pdf","title":"リコールの届出について（ホンダ　CBR600RR）","link":"https://www.mlit.go.jp/report/press/content/001622444.pdf"},
+        {"file":"ichiranhyou.pdf","title":"リコールの届出について（シボレー　コルベット）","link":"https://www.mlit.go.jp/report/press/content/ichiranhyou.pdf"},
+        {"file":"001622169.pdf","title":"リコールの届出について（いすゞ　エルフ）","link":"https://www.mlit.go.jp/report/press/content/001622169.pdf"}
+    ]
+}
