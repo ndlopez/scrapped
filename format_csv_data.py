@@ -1,9 +1,11 @@
 '''Read local csv file and edit date to output w/better format
+source: https://sidc.be/SILSO/datafiles
+
 Should request data from: 
 https://sidc.be/silso/DATA/SN_d_tot_V2.0.txt
 '''
 import csv
-path_file = "../../../Downloads/SN_d_tot_V2.0.csv"
+path_file = "../../Downloads/SN_d_tot_V2.0.csv"
 
 newFile = []
 fields = ["date","spotNum"]
