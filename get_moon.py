@@ -40,7 +40,10 @@ def get_info(tab_id):
             aux = tab_th.string
             if aux is None:
                 aux = jdx - 1
-            print(f"{year}-0{monty}-{aux}",end=';')
+            aux2 = monty
+            if int(monty) < 10:
+                aux2 = "0" + aux2
+            print(f"{year}-{aux2}-{aux}",end=';')
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
                     val_ery = tab_td[0].string
@@ -53,3 +56,7 @@ def get_info(tab_id):
         jdx += 1
 
 get_info("tb-7dmn")
+"""sample output
+2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
+2023-09-1;-;6時20分;19時16分;358,124;99.4%;
+"""
