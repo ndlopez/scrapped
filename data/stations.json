@@ -104,14 +104,6 @@
         "site": "https://www.online.radiofides.com/",
         "xtra_info": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",128,true,"#2e4054"] 
     },{
-        "name": "RadiCro",
-        "logo": "assets/phantogram.jpg",
-        "stream_url": "https://radicrojapan.out.airtime.pro/radicrojapan_b",
-        "id3_info": "",
-        "description": "Radio Cross from Kobe,Japan",
-        "site": "",
-        "xtra_info": ["Music and News in Japanese","English",128,false]
-    },{
         "name": "Radio Mundial",
         "logo": "assets/mundial.png",
         "stream_url": "https://streaming1.locucionar.com/proxy/radiomundial?mp=/stream",
@@ -119,5 +111,20 @@
         "description": "para amantes de la m\u00FAsica que desean disfrutar de ritmos actuales, grandes exitos.",
         "site": "",
         "xtra_info": ["M\u00FAsica del ayer y hoy en espa\u00F1ol", "Espa\u00f1ol",64,true,"#014171"] 
+    },{
+        "name": "rfi",
+        "logo": "assets/rfi_logo.png",
+        "stream_url": "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3",
+        "id3_info":"",
+        "site":"https://www.rfi.fr/es/en-vivo",
+        "xtra_info": ["Radio Francia Internacional","Espa\u00f1ol",64,false]
+    },{
+        "name": "RadiCro",
+        "logo": "assets/phantogram.jpg",
+        "stream_url": "https://radicrojapan.out.airtime.pro/radicrojapan_b",
+        "id3_info": "",
+        "description": "Radio Cross from Kobe,Japan",
+        "site": "",
+        "xtra_info": ["Music and News in Japanese","English",128,false]
     }]
 }
