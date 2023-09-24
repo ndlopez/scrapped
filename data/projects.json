@@ -6,7 +6,7 @@
         "language": "C++",
         "image": "",
         "repo": "https://github.com/ndlopez/solar_neutrons",
-        "demo":"https://https://ndlopez.github.io/pages/research.html",
+        "demo":"https://https://ndlopez.github.io/research",
         "builtOn":2015
     },{
         "name":"Unpublished website of Galileo Inc.",
@@ -86,8 +86,8 @@
         "description": "Inspired by NewsRadio - Arcade Episode (S03EP04). The displayed words are the ones whose meaning I did not know from the books: Pride and Prejudice by Jane Austen, Zealot by Reza Aslan and Flowers for Algernon by Daniel Keyes. It is a little hard to guess the correct word, but the app helps the user by coloring the  RIGHT letter.",
         "language": "JavaScript",
         "image": "https://raw.githubusercontent.com/ndlopez/jumble_game/main/data/Jumble_Game_2022-04-02_2152.png",
-        "repo": "https://github.com/ndlopez/jumble_game",
-        "demo": "https://ndlopez.github.io/jumble_game",
+        "repo": "https://github.com/ndlopez/jumble",
+        "demo": "https://ndlopez.github.io/jumble",
         "builtOn": 2022
     },{
         "name":"Weather WebApp",
@@ -131,8 +131,17 @@
         "description": "Display on a webpage current weather conditions and 5-day forecast for Nagoya. Added also information of the Japanese earthquake system. All data (updated every 10 minutes for weather) are from the Japanese Metereological Agency (www.jma.go.jp).",
         "language": "JavaScript, CSS",
         "image": "",
-        "repo": "https://github.com/ndlopez/ndlopez.github.io/",
-        "demo": "https://ndlopez.github.io/pages/jma_weather.html",
+        "repo": "https://github.com/ndlopez/weather/",
+        "demo": "https://ndlopez.github.io/weather",
         "builtOn": 2022
+    },{
+        "name": "Web tools",
+        "title": "Tools to organize office work.",
+        "description": "Tools to help generate passwords, todo-doing lists, analog clock and current month calendar.",
+        "language": "JavaScript, CSS",
+        "image": "",
+        "repo": "https://github.com/ndlopez/ndlopez.github.io/",
+        "demo": "https://ndlopez.github.io/tools/passGen.html",
+        "builtOn": 2023
     }
 ]}
