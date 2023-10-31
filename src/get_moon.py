@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-# Moon Rise/Set times, distance to Earth, % illumination
-# extracting data from www.timeanddate.com
-# 
+''' 
+   Moon Rise/Set times, distance to Earth, % illumination
+   extracting data from www.timeanddate.com
+'''
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from urllib.error import HTTPError
