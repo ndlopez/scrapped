@@ -1,18 +1,20 @@
 '''
+   Download csv file from SIDC site,
    Read local csv file and edit date to output w/better format
    source: https://sidc.be/SILSO/datafiles
-
-   Should request data from: 
-   https://sidc.be/silso/DATA/SN_d_tot_V2.0.txt
 '''
-from urlib.request import urlretrieve
+from urllib.request import urlretrieve
 import csv
+
 csv_url = "https://sidc.be/silso/DATA/SN_d_tot_V2.0.csv"
-query_param
+
 path_file = "../../../Downloads/SN_d_tot_V2.0.csv"
+print("Downloading...")
+path,headers = urlretrieve(csv_url,path_file)
+for name, val in headers.items():
+   print(name,val)
 
-urlretrieve(csv_url,path_file)
-
+print("Processing file...",path_file)
 newFile = []
 fields = ["date","spotNum"]
 startYear = 2007
