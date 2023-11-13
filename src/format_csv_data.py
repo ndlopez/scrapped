@@ -5,8 +5,13 @@
    Should request data from: 
    https://sidc.be/silso/DATA/SN_d_tot_V2.0.txt
 '''
+from urlib.request import urlretrieve
 import csv
+csv_url = "https://sidc.be/silso/DATA/SN_d_tot_V2.0.csv"
+query_param
 path_file = "../../../Downloads/SN_d_tot_V2.0.csv"
+
+urlretrieve(csv_url,path_file)
 
 newFile = []
 fields = ["date","spotNum"]
@@ -26,7 +31,7 @@ with open(path_file,mode="r") as data_file:
                 newFile.append(newArr)
 
 
-outFile = "../data/sunspot_number.csv"
+outFile = "../data/sunspot_number2.csv"
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
     write.writerow(fields)
