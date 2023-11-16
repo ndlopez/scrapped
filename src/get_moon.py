@@ -16,8 +16,7 @@ year = sys.argv[1] #year "2023"
 monty = sys.argv[2] #monty "8"
 location = "nagoya"
 
-my_url='https://www.timeanddate.com/moon/japan/'+ location + '?month=' + \
-    monty + '&year=' + year
+my_url=f"https://www.timeanddate.com/moon/japan/{location}?month={monty}&year={year}"
 
 try:
     #when downloading a page...
@@ -57,7 +56,14 @@ def get_info(tab_id):
         jdx += 1
 
 get_info("tb-7dmn")
+
+outFile = "../data/moon.csv"
+with open(outFile,"w",newline='') as new_file:
+    write = csv.writer(new_file)
+    write.writerow(fields)
+    write.writerows(newFile)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
 2023-09-1;-;6時20分;19時16分;358,124;99.4%;
 """
+
