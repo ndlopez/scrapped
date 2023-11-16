@@ -6,7 +6,7 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from urllib.error import HTTPError
-import sys
+import sys,csv
 
 if len(sys.argv) <= 2:
     print("A valid year and month are required: YYYY MM")
@@ -28,7 +28,8 @@ except HTTPError as err:
     source = open('../../../MoonTimes.html','r')
 
 soup = BeautifulSoup(source.read(),'html.parser')
-
+fields = []
+newFile = []
 def get_info(tab_id):
     tables = soup.find('table',id=tab_id)
     tab_tr = tables.find_all('tr')
@@ -37,6 +38,7 @@ def get_info(tab_id):
         tab_th = item.find('th')
         tab_td = item.find_all(class_='sep') #pdr0
         if tab_th is not None and jdx > 0:
+            zoeyArr = []
             aux = tab_th.string
             if aux is None:
                 aux = jdx - 1
@@ -44,24 +46,33 @@ def get_info(tab_id):
             if int(monty) < 10:
                 aux2 = "0" + aux2
             print(f"{year}-{aux2}-{aux}",end=';')
+            zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
                     val_ery = tab_td[0].string
                 else:
                     val_ery = tab_td[idx].string
+                if "時" in val_ery:
+                    val_ery.replace("時",":")
+                # if ("分",",") in val_ery:
+                #    val_ery = 0
                 print(val_ery,end=';')
+                zoeyArr.append(val_ery)
             """for td_item in tab_td:
                 print(td_item.string,end=',')"""
             print()
+            newFile.append(zoeyArr)
         jdx += 1
 
 get_info("tb-7dmn")
 
-outFile = "../data/moon.csv"
+"""outFile = "../data/moon.csv"
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
     write.writerow(fields)
     write.writerows(newFile)
+"""
+print(newFile)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
 2023-09-1;-;6時20分;19時16分;358,124;99.4%;
