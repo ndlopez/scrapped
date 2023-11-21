@@ -73,7 +73,11 @@ newArr = []
 for item in newFile:
    zoeyArr = []
    for elem in item:
-      if "," in elem:
+      x = elem.find(",")
+      print(type(elem))
+      # only date is string, the other elems are <class 'bs4.element.NavigableString'>
+      if x:
+         #print("found comma")
          elem.replace(",",":")
       zoeyArr.append(elem)
    newArr.append(zoeyArr)
