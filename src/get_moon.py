@@ -52,10 +52,6 @@ def get_info(tab_id):
                     val_ery = tab_td[0].string
                 else:
                     val_ery = tab_td[idx].string
-                if "時" in val_ery:
-                    val_ery.replace("時",":")
-                # if ("分",",") in val_ery:
-                #    val_ery = 0
                 print(val_ery,end=';')
                 zoeyArr.append(val_ery)
             """for td_item in tab_td:
