@@ -68,7 +68,17 @@ with open(outFile,"w",newline='') as new_file:
     write.writerow(fields)
     write.writerows(newFile)
 """
-print(newFile)
+# print(newFile)
+newArr = []
+for item in newFile:
+   zoeyArr = []
+   for elem in item:
+      if "," in elem:
+         elem.replace(",",":")
+      zoeyArr.append(elem)
+   newArr.append(zoeyArr)
+
+print(newArr)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
 2023-09-1;-;6時20分;19時16分;358,124;99.4%;
