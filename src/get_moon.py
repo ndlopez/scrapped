@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-''' 
+'''
    Moon Rise/Set times, distance to Earth, % illumination
    extracting data from www.timeanddate.com
+   https://gist.github.com/tk87s
 '''
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
@@ -19,17 +20,19 @@ location = "nagoya"
 my_url=f"https://www.timeanddate.com/moon/japan/{location}?month={monty}&year={year}"
 
 try:
-    #when downloading a page...
     source=urlopen(my_url)
     print("Access granted")
 except HTTPError as err:
+    # does not work :(
     print("Access denied or...", err.code)
     print("Better use curl to fetch the page...")
-    source = open('../../../MoonTimes.html','r')
+    source = open('MoonriseSet_Nagoya.htm','r',encoding="cp932")
 
 soup = BeautifulSoup(source.read(),'html.parser')
+
 fields = []
 newFile = []
+
 def get_info(tab_id):
     tables = soup.find('table',id=tab_id)
     tab_tr = tables.find_all('tr')
@@ -45,46 +48,51 @@ def get_info(tab_id):
             aux2 = monty
             if int(monty) < 10:
                 aux2 = "0" + aux2
-            print(f"{year}-{aux2}-{aux}",end=';')
+            # print(f"{year}-{aux2}-{aux}",end=';')
+            aux if aux > 10 else "0"+str(aux)
             zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
                     val_ery = tab_td[0].string
                 else:
-                    val_ery = tab_td[idx].string
-                print(val_ery,end=';')
-                zoeyArr.append(val_ery)
+                    val_ery = tab_td[idx].string                
+                zoeyArr.append(str(val_ery))
+                # print(type(str(val_ery)) ,end=';')
+
             """for td_item in tab_td:
                 print(td_item.string,end=',')"""
-            print()
+            # print()
             newFile.append(zoeyArr)
         jdx += 1
 
+
 get_info("tb-7dmn")
 
-"""outFile = "../data/moon.csv"
+zoeyArr = []
+aux = ("分","%",",")
+
+for item in newFile:
+    fields = []
+    for elem in item:
+        print(elem,end=";")
+        if "時" in elem:
+            # print("found %")
+            elem = elem.replace("時", ":")
+        for el in aux:
+            if el in elem:
+                elem = elem.replace(el, "")
+        fields.append(elem)
+    zoeyArr.append(fields)
+
+#outFile = "../data/moon.csv"
+outFile = "moonthy.csv"
+
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
-    write.writerow(fields)
-    write.writerows(newFile)
-"""
-# print(newFile)
-newArr = []
-for item in newFile:
-   zoeyArr = []
-   for elem in item:
-      x = elem.find(",")
-      print(type(elem))
-      # only date is string, the other elems are <class 'bs4.element.NavigableString'>
-      if x:
-         #print("found comma")
-         elem.replace(",",":")
-      zoeyArr.append(elem)
-   newArr.append(zoeyArr)
-
-print(newArr)
+    write.writerows(zoeyArr)
+ 
+#print(zoeyArr)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
 2023-09-1;-;6時20分;19時16分;358,124;99.4%;
 """
-
