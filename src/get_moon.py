@@ -49,7 +49,7 @@ def get_info(tab_id):
             if int(monty) < 10:
                 aux2 = "0" + aux2
             # print(f"{year}-{aux2}-{aux}",end=';')
-            aux if aux > 10 else "0"+str(aux)
+            # aux if int(aux) > 10 else "0"+str(aux)
             zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
@@ -84,8 +84,8 @@ for item in newFile:
         fields.append(elem)
     zoeyArr.append(fields)
 
-#outFile = "../data/moon.csv"
-outFile = "moonthy.csv"
+outFile = "../data/moon.csv"
+# outFile = "moonthy.csv"
 
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
