@@ -2,6 +2,18 @@
 
 Better to update this repo and JS will request from here.
 
+## Output from SIDC.be CSV file 
+
+Date Mon, 04 Dec 2023 11:49:59 GMT<br>
+Server Apache/2.4.41 (Ubuntu)<br>
+X-Content-Type-Options nosniff<br>
+Last-Modified Fri, 01 Dec 2023 11:44:07 GMT<br>
+ETag "2b9bd6-60b71492a8fc0"<br>
+Accept-Ranges bytes<br>
+Content-Length 2857942<br>
+Connection close<br>
+Content-Type text/csv
+
 ## Batch help
 
 <code>

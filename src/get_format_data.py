@@ -38,3 +38,4 @@ with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
     write.writerow(fields)
     write.writerows(newFile)
+print("done.")

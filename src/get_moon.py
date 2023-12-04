@@ -49,6 +49,7 @@ def get_info(tab_id):
             if int(monty) < 10:
                 aux2 = "0" + aux2
             # print(f"{year}-{aux2}-{aux}",end=';')
+            # should skip 1st line
             # aux if int(aux) > 10 else "0"+str(aux)
             zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
