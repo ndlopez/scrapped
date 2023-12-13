@@ -10,7 +10,7 @@ from urllib.error import HTTPError
 import sys,csv
 
 if len(sys.argv) <= 2:
-    print("A valid year and month are required: YYYY MM")
+    print("Pls, year and month are required: YYYY MM")
     sys.exit()
 
 year = sys.argv[1] #year "2023"
@@ -23,9 +23,9 @@ try:
     source=urlopen(my_url)
     print("Access granted")
 except HTTPError as err:
-    # does not work :(
     print("Access denied or...", err.code)
     print("Better use curl to fetch the page...")
+    # does not work :(
     source = open('MoonriseSet_Nagoya.htm','r',encoding="cp932")
 
 soup = BeautifulSoup(source.read(),'html.parser')
@@ -52,8 +52,9 @@ def get_info(tab_id):
             if int(monty) < 10:
                 aux2 = "0" + aux2
             # print(f"{year}-{aux2}-{aux}",end=';')
-            # should skip 1st line
             # aux if int(aux) > 10 else "0"+str(aux)
+            if int(aux) < 10:
+                aux = "0"+str(aux)
             zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
@@ -73,17 +74,18 @@ def get_info(tab_id):
 get_info("tb-7dmn")
 
 zoeyArr = []
-aux = ("時","分","%",",")
+aux = ("分","%",",")
 
 for item in newFile:
     fields = []
     for elem in item:
-        print(elem,end=";")
-        # if "時" in elem:
-        #    elem = elem.replace("時", ":")
+        # print(elem,end=";")
+        if "時" in elem:
+            elem = elem.replace("時", ":")
         for el in aux:
             if el in elem:
                 elem = elem.replace(el, "")
+
         fields.append(elem)
     zoeyArr.append(fields)
 
@@ -93,7 +95,7 @@ outFile = "../data/moon.csv"
 with open(outFile,"w",newline='') as new_file:
     write = csv.writer(new_file)
     write.writerows(zoeyArr)
- 
+print("data saved at",outFile) 
 #print(zoeyArr)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
