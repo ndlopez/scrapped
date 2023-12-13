@@ -43,8 +43,11 @@ def get_info(tab_id):
         if tab_th is not None and jdx > 0:
             zoeyArr = []
             aux = tab_th.string
+            if "月" in str(aux):
+                aux = str(aux).replace("月","")
             if aux is None:
                 aux = jdx - 1
+            
             aux2 = monty
             if int(monty) < 10:
                 aux2 = "0" + aux2
@@ -70,15 +73,14 @@ def get_info(tab_id):
 get_info("tb-7dmn")
 
 zoeyArr = []
-aux = ("分","%",",")
+aux = ("時","分","%",",")
 
 for item in newFile:
     fields = []
     for elem in item:
         print(elem,end=";")
-        if "時" in elem:
-            # print("found %")
-            elem = elem.replace("時", ":")
+        # if "時" in elem:
+        #    elem = elem.replace("時", ":")
         for el in aux:
             if el in elem:
                 elem = elem.replace(el, "")

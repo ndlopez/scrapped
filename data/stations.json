@@ -91,7 +91,7 @@
         "name": "Panamericana",
         "logo": "assets/pana148.png",
         "stream_url": "https://stream-28.zeno.fm/pnwpbyfambruv?zs=7zM3ROeGQVmyOAzN9Khz5A",
-        "id3_info": "",
+        "id3_info": "https://www.panamericana.bo/media/radiopanamerica/images/2021/01/01/2021010100000073897.png",
         "description": "La radio que todos tienen encendida desde la ma\u00f1ana.",
         "site": "https://www.panamericana.bo/blog/section/nacional",
         "xtra_info": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",112,true,"#073642"]
