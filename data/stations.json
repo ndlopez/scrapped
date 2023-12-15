@@ -2,129 +2,137 @@
     {
         "name": "LaPaz.fm",
         "logo": "assets/fmlapaz_logo.png",
-        "stream_url": "https://cloudstream2030.conectarhosting.com/8042/stream",
-        "id3_info": "https://cloudstream2030.conectarhosting.com/cp/get_info.php?p=8042",
-        "description": "Mas m\u00FAsica menos palabras. La mejor radio adulto contemporanea.",
+        "stream": "https://cloudstream2030.conectarhosting.com/8042/stream",
+        "id3": "https://cloudstream2030.conectarhosting.com/cp/get_info.php?p=8042",
+        "descr": "Mas m\u00FAsica menos palabras. La mejor radio adulto contemporanea.",
         "site": "fmlapaz.html",
-        "xtra_info": ["Adult Contemporary","English",128,true,"#183a67"]
-    },{
-        "name": "Stereo97",
-        "logo": "assets/stereo97.jpg",
-        "stream_url": "https://stream.consultoradas.com/8104/stream",
-        "id3_info": "https://stream.consultoradas.com/cp/get_info.php?p=8104",
-        "description": "La n\u00FAmero uno - Soy parte de ti, lleno tu vida con alegria. Soy mas que tu amigo yo quiero estar en tu coraz\u00F3n",
-        "site": "",
-        "xtra_info": ["Top40 & Pop Music", "Spanish",128,true,"#140000"]
+        "xtra": ["Adult Contemporary","English",128,true,"#183a67"]
     },{
         "name": "Melodia",
         "logo": "assets/melodia.png",
-        "stream_url": "https://stream.consultoradas.com/8194/stream",
-        "id3_info": "https://stream.consultoradas.com/cp/get_info.php?p=8194",
-        "description": "tu grata compa\u00f1ia, que enciende tu alegria, esta en tu sintonia la mejor radio latina, con la magia y distinci\u00F3n...",
+        "stream": "https://stream.consultoradas.com/8194/stream",
+        "id3": "https://stream.consultoradas.com/cp/get_info.php?p=8194",
+        "descr": "tu grata compa\u00f1ia, que enciende tu alegria, esta en tu sintonia la mejor radio latina, con la magia y distinci\u00F3n...",
         "site": "",
-        "xtra_info": ["M\u00FAsica en espa\u00F1ol", "Espanol",128,true,"#2e4054"]
+        "xtra": ["M\u00FAsica en espa\u00F1ol", "Espanol",128,true,"#2e4054"]
     },{
         "name": "The Buzz",
         "logo": "assets/alt-rock.jpg",
-        "stream_url": "https://listen.181fm.com/181-buzz_128k.mp3?listenerId=esAdblock0523084&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1672012878",
-        "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-buzz_128k.mp3&https=&f=ice&c=128782",
-        "description": "Listen to the best Alternative-Rock hits",
+        "stream": "https://listen.181fm.com/181-buzz_128k.mp3?listenerId=esAdblock0523084&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1672012878",
+        "id3": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-buzz_128k.mp3&https=&f=ice&c=128782",
+        "descr": "Listen to the best Alternative-Rock hits",
         "site": "",
-        "xtra_info": ["Alternative-Rock","English",128,true,"#51738f"]
+        "xtra": ["Alternative-Rock","English",128,true,"#51738f"]
     },{
         "name": "181.fm",
         "logo": "assets/90s_alt.jpg",
-        "stream_url": "https://listen.181fm.com/181-90salt_128k.mp3?listenerId=esAdblock0185051&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1670381772",
-        "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-90salt_128k.mp3&https=&f=ice&c=802257",
-        "description": "Listen to the best Alternative-Rock hits of the 90s",
+        "stream": "https://listen.181fm.com/181-90salt_128k.mp3?listenerId=esAdblock0185051&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1670381772",
+        "id3": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-90salt_128k.mp3&https=&f=ice&c=802257",
+        "descr": "Listen to the best Alternative-Rock hits of the 90s",
         "site": "",
-        "xtra_info": ["90's Alternative","English",128,true,"rgb(119,24,19)"]
+        "xtra": ["90's Alternative","English",128,true,"rgb(119,24,19)"]
     },{
         "name": "181.fm",
         "logo": "https://lastfm.freetls.fastly.net/i/u/300x300/accb1e554ea0afbac1fcc02a7413ed87.png",
-        "stream_url": "https://listen.181fm.com/181-awesome80s_128k.mp3?aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1606271347",
-        "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-awesome80s_128k.mp3&https=&f=ice&c=186052",
-        "description": "Awesome 80's - The Best Choice for Radio. Your Lifestyle, Your Music.",
+        "stream": "https://listen.181fm.com/181-awesome80s_128k.mp3?aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1606271347",
+        "id3": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-awesome80s_128k.mp3&https=&f=ice&c=186052",
+        "descr": "Awesome 80's - The Best Choice for Radio. Your Lifestyle, Your Music.",
         "site": "",
-        "xtra_info": ["Awesome 80's","English",128,true,"#03712c"]
+        "xtra": ["Awesome 80's","English",128,true,"#03712c"]
     },{
         "name": "Mellow Gold",
         "logo": "assets/default_bkg.svg",
-        "stream_url": "https://listen.181fm.com/181-mellow_128k.mp3?listenerId=esAdblock0526824&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1683720203",
-        "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-mellow_128k.mp3&https=&f=ice&c=202036",
-        "description": "A softer mix of classic hits with a '70s, '80s, & 90's focus.",
+        "stream": "https://listen.181fm.com/181-mellow_128k.mp3?listenerId=esAdblock0526824&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1683720203",
+        "id3": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-mellow_128k.mp3&https=&f=ice&c=202036",
+        "descr": "A softer mix of classic hits with a '70s, '80s, & 90's focus.",
         "site": "",
-        "xtra_info": ["Relaxing","English",128,true,"#073642"]
+        "xtra": ["Relaxing","English",128,true,"#073642"]
     },{
         "name": "Good Time Oldies",
         "logo": "assets/rockola.png",
-        "stream_url": "https://listen.181fm.com/181-goodtime_128k.mp3?listenerId=esAdblock0526824&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1683722389",
-        "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-goodtime_128k.mp3&https=&f=ice&c=223878",
-        "description": "Dedicated to playing the best oldies music from the 50s and 60s.",
+        "stream": "https://listen.181fm.com/181-goodtime_128k.mp3?listenerId=esAdblock0526824&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1683722389",
+        "id3": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-goodtime_128k.mp3&https=&f=ice&c=223878",
+        "descr": "Dedicated to playing the best oldies music from the 50s and 60s.",
         "site": "",
-        "xtra_info": ["50's and 60's","English",128,true,"#073642"]
+        "xtra": ["50's and 60's","English",128,true,"#073642"]
     },{
         "name":"Third Rock Radio",
         "logo": "assets/thirdRockRadio.jpg",
-        "stream_url":"https://rfcmedia3.streamguys1.com/thirdrock-sgplayer.aac",
-        "id3_info": "",
-        "description": "Explore and discover new worlds of music with NASA's Radio.",
+        "stream":"https://rfcmedia3.streamguys1.com/thirdrock-sgplayer.aac",
+        "id3": "",
+        "descr": "Explore and discover new worlds of music with NASA's Radio.",
         "site": "https://feed.tunein.com/profiles/s151799/nowPlaying",
-        "xtra_info":["Alternative-Rock","English",196,false,"#1363a2"]
+        "xtra":["Alternative-Rock","English",196,false,"#1363a2"]
+    },{
+        "name": "113.fm",
+        "logo": "assets/alt-x_113fm.jpg",
+        "stream": "https://113fm-atunwadigital.streamguys1.com/1001",
+        "id3": "From guitar riffs to mellow beats, we've got you covered.",
+        "descr": "The biggest Alternative hits from the '90s.",
+        "site": "",
+        "xtra": ["Alt-Rock","English",128,true,"#291F1B"]
     },{
         "name":"WCPE, The Classical Station",
         "logo":"assets/classicalStation.png",
-        "stream_url":"http://playerservices.streamtheworld.com/api/livestream-redirect/WCPE_FMAAC128.aac",
-        "id3_info":"",
-        "description":"is a non-commercial, independent, listener-supported station broadcasting from North Carolina, US.",
+        "stream":"http://playerservices.streamtheworld.com/api/livestream-redirect/WCPE_FMAAC128.aac",
+        "id3":"",
+        "descr":"is a non-commercial, independent, listener-supported station broadcasting from North Carolina, US.",
         "site":"https://theclassicalstation.org/",
-        "xtra_info":["Classical","English",128,true,"#306985"]
+        "xtra":["Classical","English",128,true,"#306985"]
     },{
         "name": "113.fm",
         "logo": "assets/113fm_classicone_1008.jpg",
-        "stream_url": "https://113fm-atunwadigital.streamguys1.com/1008",
-        "id3_info": "",
-        "description": "Classic One - Your radio station for the very best Classical and Piano Greats!",
+        "stream": "https://113fm-atunwadigital.streamguys1.com/1008",
+        "id3": "",
+        "descr": "Classic One - Your radio station for the very best Classical and Piano Greats!",
         "site": "",
-        "xtra_info": ["Classical","English",128,true,"rgb(98,69,11)"]
+        "xtra": ["Classical","English",128,true,"rgb(98,69,11)"]
     },{
         "name": "Panamericana",
         "logo": "assets/pana148.png",
-        "stream_url": "https://stream-28.zeno.fm/pnwpbyfambruv?zs=7zM3ROeGQVmyOAzN9Khz5A",
-        "id3_info": "https://www.panamericana.bo/media/radiopanamerica/images/2021/01/01/2021010100000073897.png",
-        "description": "La radio que todos tienen encendida desde la ma\u00f1ana.",
+        "stream": "https://stream-28.zeno.fm/pnwpbyfambruv?zs=7zM3ROeGQVmyOAzN9Khz5A",
+        "id3": "https://www.panamericana.bo/media/radiopanamerica/images/2021/01/01/2021010100000073897.png",
+        "descr": "La radio que todos tienen encendida desde la ma\u00f1ana.",
         "site": "https://www.panamericana.bo/blog/section/nacional",
-        "xtra_info": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",112,true,"#073642"]
+        "xtra": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",112,true,"#073642"]
     },{
         "name": "Radio Fides",
         "logo": "assets/fides.svg",
-        "stream_url": "https://usa7.fastcast4u.com/proxy/grflores?mp=/1",
-        "id3_info": "",
-        "description": "su voz amiga, a la hora de las noticias, la buena musica, en sintonia nacional, con el placer de su compa\u00f1ia...",
+        "stream": "https://usa7.fastcast4u.com/proxy/grflores?mp=/1",
+        "id3": "",
+        "descr": "su voz amiga, a la hora de las noticias, la buena musica, en sintonia nacional, con el placer de su compa\u00f1ia...",
         "site": "https://www.online.radiofides.com/",
-        "xtra_info": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",128,true,"#2e4054"] 
+        "xtra": ["Noticias y m\u00FAsica en espa\u00F1ol", "Espa\u00f1ol",128,true,"#2e4054"] 
     },{
         "name": "Radio Mundial",
         "logo": "assets/mundial.png",
-        "stream_url": "https://streaming1.locucionar.com/proxy/radiomundial?mp=/stream",
-        "id3_info": "",
-        "description": "para amantes de la m\u00FAsica que desean disfrutar de ritmos actuales, grandes exitos.",
+        "stream": "https://streaming1.locucionar.com/proxy/radiomundial?mp=/stream",
+        "id3": "",
+        "descr": "para amantes de la m\u00FAsica que desean disfrutar de ritmos actuales, grandes exitos.",
         "site": "",
-        "xtra_info": ["M\u00FAsica del ayer y hoy en espa\u00F1ol", "Espa\u00f1ol",64,true,"#014171"] 
+        "xtra": ["M\u00FAsica del ayer y hoy en espa\u00F1ol", "Espa\u00f1ol",64,true,"#014171"] 
     },{
         "name": "rfi",
         "logo": "assets/rfi_logo.png",
-        "stream_url": "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3",
-        "id3_info":"",
+        "stream": "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3",
+        "id3":"",
         "site":"https://www.rfi.fr/es/en-vivo",
-        "xtra_info": ["Radio Francia Internacional","Espa\u00f1ol",64,false]
+        "xtra": ["Radio Francia Internacional","Espa\u00f1ol",64,false]
     },{
         "name": "RadiCro",
         "logo": "assets/phantogram.jpg",
-        "stream_url": "https://radicrojapan.out.airtime.pro/radicrojapan_b",
-        "id3_info": "",
-        "description": "Radio Cross from Kobe,Japan",
+        "stream": "https://radicrojapan.out.airtime.pro/radicrojapan_b",
+        "id3": "",
+        "descr": "Radio Cross from Kobe,Japan",
         "site": "",
-        "xtra_info": ["Music, News and Variety","Japanese",128,false]
+        "xtra": ["Music, News and Variety","Japanese",128,false]
+    },{
+        "name": "Stereo97",
+        "logo": "assets/stereo97.jpg",
+        "stream": "https://stream.consultoradas.com/8104/stream",
+        "id3": "https://stream.consultoradas.com/cp/get_info.php?p=8104",
+        "descr": "La n\u00FAmero uno - Soy parte de ti, lleno tu vida con alegria. Soy mas que tu amigo yo quiero estar en tu coraz\u00F3n",
+        "site": "",
+        "xtra": ["Top40 & Pop Music", "Spanish",128,true,"#140000"]
     }]
 }
