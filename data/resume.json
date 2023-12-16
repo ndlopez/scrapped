@@ -1,0 +1,224 @@
+{
+    "about":"Hello, I am Diego, a physicist living in Kobe, Japan.<br> What it started as a \
+    hobby back in undegraduate school became a profession (programmer).<br> I do mostly \
+    back-end (Python, some PHP) and most recently front-end (JavaScript). <br>I am passionate about \
+    cosmic-rays, nuclear physics and electronics.<br> Since January 2023 I started working as a contractor at TG in Inazawa.",
+    "edu":[
+        {
+            "title" : "Doctorate",
+            "uni" : "Institute for Space-Earth Environmental Research, Nagoya University",
+            "location" : "Nagoya, Japan",
+            "year" : "Astroparticle Physics, March 2016",
+            "area" : "Solar Physics, solar flares, particle acceleration mechanism",
+            "advisor" : "Prof. Y. Matsubara"
+        },{
+            "title" : "Master of Science",
+            "uni" : "Solar-Terrestrial Environment Laboratory, Nagoya University",
+            "location" : "Nagoya, Japan",
+            "year" : "Astroparticle Physics, March 2012",
+            "area" : "Cosmic-rays, particle tracking and identification",
+            "advisor" : "Prof. Y. Matsubara"
+        },{
+            "title" : "Bachelor of Science",
+            "uni" : "Facultad de Ciencias Puras y Naturales, Universidad Mayor de San Andr&eacute;s",
+            "location" : "La Paz, Bolivia",
+            "year" : "Physics, December 2008",
+            "area" : "Solar Physics",
+            "advisor" : "Prof. N. Martinic"
+        }],
+    programming:[
+        {
+            "lang" : "Bash, Batch, CSS",
+            "skill" : "can code without reference",
+            "level" : "Advanced",
+        },{
+            "lang" : "C, Python, JavaScript",
+            "skill" : "can code without reference",
+            "level" : "Intermediate",
+        },{
+            "lang" : "Databases (MySQL)",
+            "level" : "Intermediate",
+            "skill" : ""
+        },{
+            "lang" : "GNU Linux/Unix Administration",
+            "level" : "Intermediate",
+            "skill" : ""
+        },{
+            "lang" : "Java, PHP, C++, C#, Powershell",
+            "skill" : "can code with reference",
+            "level" : "Beginner"
+        },{
+    	    "lang" : "VBA (Visual Basic for Applications) and PostgreSQL",
+	        "level" : "Learning",
+	        "skill" : ""
+	    }],
+    language:[
+        {
+            "lang" : "Spanish",
+            "level" : "Native",
+            "skill" : "can read, write and listen.",
+        },{
+            "lang" : "English",
+            "level" : "Fluent",
+            "skill" : "can read, write and listen.",
+        },{
+            "lang" : "Japanese",
+            "level" : "Business Level",
+            "skill" : "can read and listen, and can write simple paragraphs",
+        },{
+            "lang" : "German",
+            "level" : "Beginner",
+            "skill" : "basic greetings and asking for directions",
+        }],
+    work:[
+        {   "position" : "Current: CFD Analyst",
+            "place" : "TG Kitajima Tech",
+            "location" : "Inazawa, Japan",
+            "period" : "Jan 2023 - ",
+            "descr" : ["Main: CAE software operator and CFD analyst", "Sub: Python, VBA programmer, and provide technical support."]
+        },{
+            "position" : "Programmer",
+            "place" : "TMC - Kamigo Plant",
+            "location" : "Kamigo, Toyota, Japan",
+            "period" : "Apr 2022 - Sep 2022",
+            "descr"  : ["Operational Research: Implemented a tool to improve suppliers routing in Python.",
+            "Built mobile version of Flask/React autonomous robot control tool.", "To improve image recognition tool, aided with object annotations."] 
+        },{
+            "position" : "Python and MySQL Mentor",
+            "place" : "Galileo Co. Ltd.",
+            "location" : "Nagoya, Japan",
+            "period" : "Jan 2022 - Mar 2022",
+            "descr"  : ["Mentored one employee in Python and MySQL.",
+            "Set up a local server and a DB to access data within the network.",
+            "Implemented a REST-api in PHP to perform CRUD operations."]
+        },{
+            "position" : "Lead Programmer",
+            "place" : "CFKobo LLC",
+            "location" : "Nagoya, Japan",
+            "period" : "May 2021 - Dec 2021",
+            "descr" : ["Using a GigE camera SDK implemented in C# new functions to control hardware and record video and images.",
+            "Lead and Mentored a team of 3 developers to develop a monitoring system to acquire data from sensors and upload them to a remote server provided by the client.",
+            "Sensor calibration to send/receive data using BLE communication device."]
+        },{
+            "position" : "Python Programmer",
+            "place" : "TMC Kamigo Plant",
+            "location" : "Remote and at the Plant",
+            "period" :"Oct 2020 - Mar 2021",
+            "descr" : ["Aided in designing and implementing new tools for a GUI Python application."]
+        },{
+            "position" : "Jr. Data Analyst",
+            "place" :"IVIS Inc.(Intelligent Vision and Imaging Systems)",
+            "location" : "TMC, Toyota, Japan",
+            "period" :"Jul 2018 - Jun 2020",
+            "descr" : ["Apprentice of CAE software (Fluid Dynamics Analysis)", 
+            "Implemented new tools (scripts) to connect pipelines for a cluster of computers.",
+            "Implemented a simulation written in C-like code to test a new tool to improve driving conditions."]
+        },{
+            "position" : "Jr. Physicist",
+            "place" :"IBTEN (Bolivia Nuclear Regulatory Commission)",
+            "location" : "La Paz, Bolivia",
+            "period" :"Jan 2009 - Sep 2009",
+            "descr" : ["Calibrated radionucleid instruments using Gamma-ray sources.",
+            "Performed Gamma-ray spectroscopy analysis for several samples (most of them metal scraps)."]
+        }],
+    invited:[
+        {
+            "place" : "Astrophysics Department, INAOE, Puebla, Mexico",
+            "period" : "Mar 2012 - May 2012",
+            "descr" :["Dismantle experimental setup of high-energy physics detector (SciBar)","Set atop Mt. Sierra Negra (4600m a.s.l.) SciBar and make first cosmic-ray measurements.","Monitor environment and electronic equipment at high-altitude."]
+        },{
+            "place" : "Fermi National Laboratory, Illinois, USA",
+            "period" : "Feb 2011 - Mar 2011",
+            "descr" : ["Dismantle a high-energy physics detector (MiniBooNE experiment).","Set up data-acquisition equipment to be packed and sent to Mexico"]
+        },{
+            "place" : "Geophysics Department, Universidad Nacional Autonoma de Mexico, Mexico",
+            "period" : "Oct 2010 - Nov 2010",
+            "descr" : ["Set up protoype experiment atop Mt.Sierra Negra (4600 masl)","Set data acquisition software to perform cosmic-ray measurements and monitor environment."]
+        }, 
+    ],
+paper:[{
+        "title": "A faster and more reliable data acquisition system for the full performance of the SciCRT",
+        "authors": "Y.Sasai, Y.Matsubara, Y. Itow, D.Lopez, et.al.",
+        "journal":  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+        "date":  "2017-06-11",
+        "doi":  "https://doi.org/10.1016/j.nima.2016.12.060"
+    },{
+        "title":  "Search for solar neutrons during the maximum activity of solar cycle 24",
+        "authors": "D.Lopez, Y.Matsubara, Y.Muraki, T.Sako",
+        "journal": "Proceedings of the 34th Int. Cosmic Ray Conf. in The Hague, The Netherlands",
+        "date": "2016-08-18",
+        "doi":  "https://pos.sissa.it/archive/conferences/236/115/ICRC2015_115.pdf"
+    },{
+        "title":  "Simultaneous observation of solar neutrons from the ISS and High mountain observatories in association with a flare on July 8, 2014",
+        "authors": "Y.Muraki, D.Lopez, K.Koga, et.al.",
+        "journal": "Solar Physics",
+        "date": "2016-04-21",
+        "doi":  "https://doi.org/10.1007/s11207-016-0887-0"
+    },{
+        "title":  "Estimates of the neutron emission during large solar flares in the rising and maximum period of solar cycle 24",
+        "authors": "D.Lopez, Y.Matsubara, Y.Muraki, T.Sako, J.F. Valdes",
+        "journal": "Astroparticle Physics",
+        "date": "2016-03-01",
+        "doi":  "https://doi.org/10.1016/j.astropartphys.2015.12.004"
+    },{
+        "title":  "Search for solar neutrons at Mount Chacaltaya associated with M- and X-class flares during the rising period of solar cycle 24",
+        "authors": "D.Lopez and Y.Matsubara",
+        "journal": "Earth, Planets and Space",
+        "date": "2015-12-03",
+        "doi": "https://doi.org/10.1186/s40623-015-0222-2"
+    },{
+        "title":  "Observaci&oacute;n simult&aacute;nea de neutrones solares en asociaci&oacute;n con una fulguraci&oacute;n solar del 7 de Septiembre de 2005",
+        "authors":  "Y. Ricaldi, P. Miranda, D. Lopez, R. Bustos",
+        "journal":  "Revista Boliviana de F&iacute;sica 13, 29-32, 2007",
+        "date":  "2007-10",
+        "doi":  "http://www.fiumsa.edu.bo/rbf/numero13.pdf"
+    }],
+    poster:[{
+        "title":  "Solar-neutron monitoring using Chacaltaya Neutron Monitor during the maximum of solar cycle 24",
+        "authors": "D.Lopez, Y.Matsubara, T.Sako",
+        "conf": "2013 International CAWSES Symposium",
+        "venue":  "Nagoya, Japan",
+        "date": "2013-11-28"
+    },{
+        "title":  "Enviromental monitoring of the mini-SciCR prototype detector",
+        "authors": "D.Lopez",
+        "conf": "40th Astronomy and Particle Physics Summer School for graduate students",
+        "venue":  "Gamagori, Japan",
+        "date": "2010-08-12"
+    }],
+    theses:[{
+        "title":  "Estimation of the neutron emission during large solar flares of solar cycle 24",
+        "authors": "D.Lopez",
+        "journal": "Thesis submitted for PhD in Astroparticle Physics, Nagoya University",
+        "date": "2016-02",
+        "link": "https://www.nagoya-u/nul"
+    },{
+        "title":  "Particle Identification by using mini-SciCR detector at Mount Sierra Negra in Mexico",
+        "authors": "D.Lopez",
+        "journal": "Thesis submitted for M.Sc. in Astrophysics, Nagoya University",
+        "date": "2012-03",
+        "link":  "Available as a compendium of MSc theses from the Solar-Terrestrial Environment Laboratory, Nagoya University, Jun 2012"
+    },{
+        "title":  "An&aacute;lisis de eventos producidos por neutrones solares detectados en el Monte Chacaltaya",
+        "authors": "D.Lopez",
+        "journal": "Bachelor thesis submitted for BSc in Physics, San Andres University",
+        "date":  "2007-10",
+        "link":  "Available at the Central Library of San Andres University (in Spanish)"
+    }],
+    awards:[{
+        "title":  "Monbukagakusho Scholarship awarded by the Japanese Gov. MEXT",
+        period: "2009-10~2015-03",
+        amount: "150000 JPY /month",
+        comment: "Full scholarship for pursuing a higher degree at Nagoya University"
+    },{
+        "title":  "Honour Diploma for outstanding performance during 2003 Spring and 2004 Fall terms",
+        period: "2004",
+        amount :"",
+        comment: "Physics Department, Science Faculty, San Andres University"
+    },{
+        "title":  "Honour Diploma for the thermodynamics experiment 'The Drinking Bird'",
+        period: "2002-07",
+        amount: "",
+        comment: "Physics Department, Science Faculty, San Andres University"
+    }]
+};
