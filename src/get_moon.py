@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 '''
    Moon Rise/Set times, distance to Earth, % illumination
    extracting data from www.timeanddate.com
