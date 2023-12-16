@@ -1,6 +1,6 @@
 # Scrapped data repository
 
-Better to update this repo and JS will request from here.
+Update this data repo and JS will request from here.
 
 ## Output from SIDC.be CSV file 
 
