@@ -64,6 +64,14 @@
         "site": "https://feed.tunein.com/profiles/s151799/nowPlaying",
         "xtra":["Alternative-Rock","English",196,false,"#1363a2"]
     },{
+        "name": "KEXP-FM",
+        "logo": "https://www.kexp.org/static/assets/img/logo-black.svg",
+        "stream": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
+        "id3": "https://api.kexp.org/v2/plays/?format=json&limit=1&ordering=-airdate&airdate_before=2024-01-13T12:45:25.000Z",
+        "descr": "KEXP is an affiliate of the University of Washington.",
+        "site": "",
+        "xtra": ["TopRock","English",128,true,"#291F1B"]
+    },{
         "name": "113.fm",
         "logo": "assets/alt-x_113fm.jpg",
         "stream": "https://113fm-atunwadigital.streamguys1.com/1001",
