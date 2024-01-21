@@ -9,7 +9,7 @@ from urllib.error import HTTPError
 import sys,csv
 
 if len(sys.argv) <= 2:
-    print("Pls, year and month are required: YYYY MM")
+    print("Pls, input year and month: YYYY MM")
     sys.exit()
 
 year = sys.argv[1] #year "2023"
