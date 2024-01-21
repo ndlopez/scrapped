@@ -98,5 +98,5 @@ print("data saved at",outFile)
 #print(zoeyArr)
 """sample output
 2023-09-9月;Moonrise;Moonset;Moonrise;Distance (km);Illumination;
-2023-09-1;-;6時20分;19時16分;358,124;99.4%;
+2023-09-01;-;06:20;19:16;358,124;99.4%;
 """
