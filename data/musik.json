@@ -6,7 +6,7 @@
     {"artist": "Beach House", "song": "Once Twice Melody"},
     {"artist": "Arcade Fire", "song": "Unconditional"},
     {"artist": "OK Go", "song": "Upside-down and inside out"},
-    {"artist": "Bob Moses", "song": "Love Brand New"},
+    {"artist": "Bob Moses", "song": "Love Brand New","art":"https://lastfm.freetls.fastly.net/i/u/300x300/601c427789a252e1b232e3aa67728cdb.png"},
     {"artist": "NeedtoBreathe", "song": "Into the Mistery"},
     {"artist": "Kongos", "song": "Take it from Me"},
     {"artist": "The Shins", "song": "So now what / New slang"},
