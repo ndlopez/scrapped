@@ -92,7 +92,7 @@ outFile = "../data/moon.csv"
 # outFile = "moonthy.csv"
 
 with open(outFile,"w",newline='') as new_file:
-    write = csv.writer(new_file)
+    write = csv.writer(new_file,delimiter=';')
     write.writerows(zoeyArr)
 print("data saved at",outFile) 
 #print(zoeyArr)
