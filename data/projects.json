@@ -109,7 +109,7 @@
         "builtOn":2022
     },{
         "name": "Stream Player WebUI",
-        "title": "Listen to and discover new music while working/coding/running. Thirteen different audio streams are available: ThirdRock radio, 113.fm, 181.fm, LaPaz.fm and more.",
+        "title": "Listen to and discover new music while working/coding/jogging. Twenty+ different audio streams are available: 113.fm, 181.fm, LaPaz.fm and more.",
         "description": "Web application developed in JavaScript. Displays a music player with pre-defined streams. Keyboard events are associated to Play/Pause/Stop buttons. Works on both Desktop and Mobile platforms. A 'recently listened' playlist is created for LaPaz.fm page only. Disclaimer: Artwork and iD3-tag info are not available for all the audio streams. Some CORS issue with the provider.",
         "language": "JavaScript, CSS",
         "image": "https://raw.githubusercontent.com/ndlopez/web_player/main/assets/new_design.png",
@@ -143,5 +143,14 @@
         "repo": "https://github.com/ndlopez/ndlopez.github.io/",
         "demo": "https://ndlopez.github.io/tools/passGen.html",
         "builtOn": 2023
+    },{
+        "name": "Task Manager",
+        "title": "WebApp to manage current/future tasks",
+        "description": "Tool to help to organize to-do/doing/done tasks assigned. Runs on separate server using Flask, client-side uses plain Javascript.",
+        "language": "Python, JavaScript",
+        "image": "",
+        "repo": "https://github.com/ndlopez/task_mgr/",
+        "demo": "",
+        "builtOn": 2024
     }
 ]}
