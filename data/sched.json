@@ -34,8 +34,6 @@
     {"time":"20:45","activity":"Drink cup #6 of water"},
     {"time":"20:30","activity":"Update diary/Programming/Read a book"},
     {"time":"21:30","activity":"Brush teeth"},
-    {"time":"21:50","activity":"おやすみなさい"},
-    {"time":"--:--","activity":"Wash dinner dishes"},
-    {"time":"--:--","activity":"Nap time (~13min)"},
+    {"time":"21:50","activity":"おやすみなさい"}
 ]
 }
