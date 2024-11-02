@@ -144,8 +144,17 @@
         "demo": "https://ndlopez.github.io/tools/passGen.html",
         "builtOn": 2023
     },{
+        "name": "Clock I/O",
+        "title": "Robo-like tool to input clock in/out",
+        "description": "Tool to reduce input redundancy and miss inputs. Runs every workday at 17:16 set by Windows Task Scheduler.",
+        "language": "Python2, SikuliX",
+        "image": "",
+        "repo": "https://github.com/ndlopez/office_tools/",
+        "demo": "",
+        "builtOn": 2023
+    },{
         "name": "Task Manager",
-        "title": "WebApp to manage current/future tasks",
+        "title": "WebApp to manage current/future tasks<br>Web Application",
         "description": "Tool to help to organize to-do/doing/done tasks assigned. Runs on separate server using Flask, client-side uses Javascript.",
         "language": "Python, JavaScript",
         "image": "",
