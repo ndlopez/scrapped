@@ -41,7 +41,7 @@ A quick [Duckduckgo](https://duckduckgo.com/?t=ffab&q=noto+sans+font&atb=v320-1&
 
 To install run the following:
 
-    $ python3.8
+    $ python3.11
 
     >> print(matplotlib.matplotlib_fname())
 
