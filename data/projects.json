@@ -1,5 +1,14 @@
 {"projects":[
     {
+        "name":"Numerical Analysis in C",
+        "title":"Code repository for FIS340. Numerical Analysis for Physicists.",
+        "description":"It includes several code samples to solve numerically some problems in Thermodynamics and Electromagnetism. Data Analysis algorithms are also included.",
+        "language":"C",
+        "image":"../assets/cloud-heavy.svg",
+        "repo":"https://github.com/ndlopez/num_anl/",
+        "demo":"",
+        "builtOn":2004
+    },{
         "name": "Solar Physics Research",
         "title": "Code repository for some of the tools I used as a graduate student.",
         "description": "Code to calculate Sun's zenith angle, atmospherical influence on particles coming from the Sun, neutron's survival probability and other variables used to determine solar neutrons acceleration mechanism. It requires <a target='blank' href='https://root.cern.ch'>CERN's ROOT</a> (C++ framework)",
