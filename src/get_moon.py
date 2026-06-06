@@ -1,6 +1,7 @@
 '''
    Moon Rise/Set times, distance to Earth, % illumination
    extracting data from www.timeanddate.com
+   Update: 20026-06-06 cannot longer fetch url, 403 error
    https://gist.github.com/tk87s
 '''
 from bs4 import BeautifulSoup
@@ -25,7 +26,8 @@ except HTTPError as err:
     print("Access denied or...", err.code)
     print("Better use curl to fetch the page...")
     # does not work :(
-    source = open('MoonriseSet_Nagoya.htm','r',encoding="cp932")
+    
+source = open('../../../Downloads/MoonriseSet_Nagoya.htm','r')
 
 soup = BeautifulSoup(source.read(),'html.parser')
 
@@ -52,8 +54,10 @@ def get_info(tab_id):
                 aux2 = "0" + aux2
             # print(f"{year}-{aux2}-{aux}",end=';')
             # aux if int(aux) > 10 else "0"+str(aux)
-            if int(aux) < 10:
-                aux = "0"+str(aux)
+            if aux == "Jul":
+                # if int(aux) < 10:
+                # aux = "0"+str(aux)
+                aux = "07"
             zoeyArr.append(f"{year}-{aux2}-{aux}")
             for idx in range(len(tab_td)):
                 if tab_td[idx].string == "-":
