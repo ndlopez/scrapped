@@ -27,7 +27,7 @@ except HTTPError as err:
     print("Better use curl to fetch the page...")
     # does not work :(
     
-source = open('../../../Downloads/MoonriseSet_Nagoya.htm','r')
+source = open('../../../Downloads/Moonrise_July_2026.html','r')
 
 soup = BeautifulSoup(source.read(),'html.parser')
 
