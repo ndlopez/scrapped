@@ -6,7 +6,7 @@
     {"time":"06:20","activity":"Prep lunch-box and snacks"},
     {"time":"06:40","activity":"Brush teeth (5min)"},
     {"time":"06:54","activity":"行って来ます"},
-    {"time":"07:03","activity":"Arrive to nearby bus stop"},
+    {"time":"07:01","activity":"City bus departs, ride 14min"},
     {"time":"07:26","activity":"Express train departs Sannomiya Station"},
     {"time":"07:40","activity":"Express train arrives 2min late to Kstation"},
     {"time":"07:53","activity":"Co.Bus departs from z place"},
@@ -28,13 +28,12 @@
     {"time":"17:15","activity":"Start rpa to input daily schedule"},
     {"time":"17:18","activity":"お先に失礼します"},
     {"time":"17:30","activity":"Wait a bit in the cold/humid for Co.bus"},
-    {"time":"18:06","activity":"Express train departs"},
-    {"time":"19:05","activity":"Prep dinner/Wash lunch-box dishes"},
+    {"time":"18:18","activity":"Express train departs"},
     {"time":"19:30","activity":"Dinner"},
+    {"time":"20:00","activity":"Prep dinner/Wash lunch-box dishes"},
     {"time":"20:45","activity":"Drink cup #6 of hot cocoa/tea"},
-    {"time":"20:30","activity":"Update diary or website/Read a book"},
+    {"time":"21:00","activity":"Update diary or website/Read a book"},
     {"time":"21:30","activity":"Brush teeth"},
-    {"time":"21:45","activity":"おやすみなさい"}
-    {"time":"07:01","activity":"City bus departs, ride 14min"},
+    {"time":"22:00","activity":"おやすみなさい"}
 ]
 }
